@@ -1,0 +1,29 @@
+:root {
+  --sidebar-collapsed-width: 70px;
+  --sidebar-expanded-width: 230px;
+  --layout-side-padding: 40px;
+  --content-left-offset: calc(var(--sidebar-expanded-width) + var(--layout-side-padding));
+  --content-mobile-padding: 18px;
+}
+
+body {
+  margin: 0;
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  background: #020617;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
